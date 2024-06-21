@@ -19,7 +19,6 @@ Hola, soy **Yoscar**. Soy **Diseñador Gráfico** y **Desarrollador Web** en for
 ### 🎨 MJStudio | Discord Bot
 - **Rol:** Creador & Desarrollador
 - **Tecnología:** JavaScript
-- ![MJStudio](assets/img/proyects/mjstudio.png)
 
 ---
 
@@ -32,17 +31,17 @@ Hola 👋, soy Yoscar Manuel, tengo 17 años y resido en la **República Dominic
 ## 🛠️ Habilidades
 
 ### Web Development
-- ![HTML](assets/img/skills/html.png) **HTML**
-- ![CSS](assets/img/skills/css.png) **CSS**
-- ![Java](assets/img/skills/java.png) **Java**
-- ![JavaScript](assets/img/skills/js.png) **JavaScript**
+- **HTML**
+- **CSS**
+- **Java**
+- **JavaScript**
 
 ### Diseño Gráfico
-- ![Illustrator](assets/img/skills/illustrator.png) **Illustrator**
-- ![Photoshop](assets/img/skills/photoshop.png) **Photoshop**
-- ![After Effects](assets/img/skills/aftereffects.png) **After Effects**
-- ![Premiere](assets/img/skills/premiere.png) **Premiere**
-- ![InDesign](assets/img/skills/indesign.png) **InDesign**
+- **Illustrator**
+- **Photoshop**
+- **After Effects**
+- **Premiere**
+- **InDesign**
 
 ---
 
