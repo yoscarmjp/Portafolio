@@ -1,0 +1,50 @@
+.modalContact{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 50px 130px 130px 0;
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modalContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: white;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.modalContact h1{
+    color: #772ACD;
+}
+
+.modalContact p{
+    color: black;
+    margin-top: -30px;
+    max-width: 36%;
+    text-align: center;
+}
+
+.modalContact button{
+    background-color: #772ACD;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-weight: 600;
+    transition: all 300ms ease;
+}
+
+.modalContact button:hover{
+    transform: scale(1.2);
+}
