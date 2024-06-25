@@ -63,7 +63,7 @@ header .logo a i{
 }
 
 .btn-contact button{
-  background-color: #2B1A46;
+  background-color: #862ACD;
   padding: 18px 35px;
   width: 170px;
   height: 60px;
@@ -81,9 +81,9 @@ header .logo a i{
   width: 170px;
   height: 60px;
   background: none;
-  border: 3px solid #2B1A46;
+  border: 3px solid #862ACD;
   cursor: pointer;
-  color:#2B1A46;
+  color:#862ACD;
 }
 
 .flex-container-home .btn-contact{

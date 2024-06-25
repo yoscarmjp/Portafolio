@@ -19,7 +19,7 @@ body {
 
 .left h2 {
     font-size: 28px;
-    color: #772ACD;
+    color: #862ACD;
     font-weight: 400;
 }
 
@@ -99,7 +99,7 @@ body {
 }
 
 .tittle-section h1 {
-    color: #772ACD;
+    color: #862ACD;
     font-style: italic;
     font-weight: 600;
     text-decoration: none;
@@ -135,6 +135,7 @@ body {
 
 .box-proyects img {
     width: 100%;
+    margin-top: -2px;
     border-radius: 8px;    
 }
 
@@ -186,7 +187,6 @@ body {
     margin: 15px; 
     margin-top: 25px;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgb(207, 202, 202);
     transition: transform 300ms ease;
 }
 
@@ -224,7 +224,7 @@ body {
     font-size: 20px;
     margin-top: -30px;
     color: white;
-    max-width: 75%;
+    max-width: 60%;
 }
 
 .about-me span{
@@ -280,10 +280,23 @@ body {
 .flex-container-contact form button{
     padding: 20px 60px;
     margin-top: 20px;
+    height: 70px;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 550;
     border: none;
     color: white;
-    background-color: #772ACD;
+    background-color: #862ACD;
+    transition: all 300ms ease;
 }
+
+
+.flex-container-contact form button:hover {
+    border: 2px solid;
+    border-radius: 8px;
+    height: 70px;
+    background: none;
+    border: 3px solid #862ACD;
+    cursor: pointer;
+    color:#862ACD;
+  }
