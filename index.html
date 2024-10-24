@@ -5,32 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS LINK-->
     <link rel="stylesheet" href="assets/styles/styles.css">
-    <link rel="stylesheet" href="assets/styles/nav.css">
-    <link rel="stylesheet" href="assets/styles/footer.css">
-    <link rel="stylesheet" href="assets/styles/modal.css">
+    <link rel="stylesheet" href="assets/styles/NavFooter.css">
     <!--DATA LINK-->
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/logo.webp" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Yoscar | Portfolio</title>
 </head>
 <body>
-    <header>
+
+    <header id="index">
         <div class="logo">
             <a href=""><i class='bx bx-code-alt'></i></a>
         </div>
         <nav>
             <ul>
-                <li class="nav-link"><a href="#home">Inicio</a></li>
-                <li class="nav-link"><a href="#proyects">Proyectos</a></li>
-                <li class="nav-link"><a href="#about-me">Sobre Mi</a></li>
-                <li class="nav-link"><a href="#skills">Habilidades</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about-me">Sobre Mi</a></li>
+                <li><a href="#proyects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
             </ul>
         </nav>
-        <div class="btn-contact">
-            <a href="#contact">
-                <button>Contactame</button>
-            </a>
-        </div>
+        <button class="btn">Contactame</button>
     </header>
 
     <div id="home" class="flex-container-home">
@@ -38,29 +33,14 @@
             <h2>DESARROLLADOR WEB FRONT-END</h2>
             <h1>Hola, soy <span>Yoscar Manuel</span></h1>
             <p>Bienvenido a mi portafolio digital, aquí encontrarás una muestra de mis habilidades como desarrollador web, así como proyectos que he realizado. Estoy comprometido a crecer y adaptarme a las necesidades de tu proyecto.</p>
-            <div class="btn-contact">
-                <a href="#contact"><button>Contrátame</button></a>
-            </div>
+            <button class="btn">Contratarme</button>
         </div>
         <div class="right">
-            <img src="assets/img/banner.png">
+            <img src="assets/img/banner.webp">
         </div>
     </div>
-    
-    <div id="proyects" class="tittle-section">
-        <h1>PROYECTOS</h1>
-        <p>Aqui puedes observar los diferentes proyectos que he realizado hasta la fecha.</p>
-    </div>
-    <div class="flex-proyects-container">
-        <div class="box-proyects">
-            <img src="assets/img/proyects/mjstudio.png">
-            <h1>MJSTUDIO | DISCORD BOT</h1>
-            <h2>JavaScript</h2>
-            <p>Es un bot multifunciones el cual añade funciones de moderacion, musica y todo lo posible para mantener un ambiente divertido y seguro.</p>
-        </div>
-    </div>
-    
-    <div id="about-me" style="margin-top: 120px;" class="tittle-section">
+
+    <div id="about-me" class="title-section">
         <h1>ACERCA DE MI</h1>
     </div>
     <div class="about-me">
@@ -70,77 +50,79 @@
             y creativo.
         </p>
     </div>
+    
+    <div id="proyects" class="title-section">
+        <h1>PROYECTOS</h1>
+        <p>Aqui puedes observar los diferentes proyectos que he realizado hasta la fecha.</p>
+    </div>
 
-        <div id="skills" style="margin-top: 120px;" class="tittle-section">
-            <h1>HABILIDADES</h1>
-            <p>¡En esta sección estan todas mis habilidades segun mi nivel!</p>
+    <div class="flex-proyects-container">
+        <div class="box-proyects">
+            <img src="assets/img/proyects/mjstudio.webp">
+            <h1>MJSTUDIO | DISCORD BOT</h1>
+            <h2>JavaScript</h2>
+            <p>Es un bot multifunciones el cual añade funciones de moderacion, musica y todo lo posible para mantener un ambiente divertido y seguro.</p>
+            <button class="btn">Observar</button>
         </div>
-        <div class="flex-skills-container">
+        <div class="box-proyects">
+            <img src="assets/img/proyects/mjrecetas.webp" style="width: 120px;">
+            <h1>MJRECETAS | SITIO WEB</h1>
+            <h2>HTML, TAILWIND CSS, JAVASCRIPT</h2>
+            <p>Una plataforma web dedicada a los amantes de la cocina, diseñada para compartir y descubrir recetas deliciosas y accesibles.</p>
+            <button class="btn">Observar</button>
+        </div>
+    </div>
+
+    <div id="skills" class="title-section">
+        <h1>TECNOLOGÍAS</h1>
+        <p>¡En esta sección estan todas las tecnologías que se manejar!</p>
+    </div>
+    
+    <div class="flex-container-skills">
+        <div class="lenguage">
             <div class="box-skills">
-                <img src="assets/img/skills/html.png">
-                <div class="text-box-skills">
-                    <h1>HTML</h1>
-                </div>
+                <img src="assets/img/skills/html.webp">
+                <h1>HTML</h1>
             </div>
             <div class="box-skills">
-                <img src="assets/img/skills/css.png">
-                <div class="text-box-skills">
-                    <h1>CSS</h1>
-                </div>
+                <img src="assets/img/skills/css.webp">
+                <h1>CSS</h1>
             </div>
             <div class="box-skills">
-                <img src="assets/img/skills/java.png">
-                <div class="text-box-skills">
-                    <h1>Java</h1>
-                </div>
+                <img src="assets/img/skills/js.webp">
+                <h1>JavaScript</h1>
             </div>
             <div class="box-skills">
-                <img src="assets/img/skills/js.png">
-                <div class="text-box-skills">
-                    <h1>JavaScript</h1>
-                </div>
+                <img src="assets/img/skills/php.webp">
+                <h1>PhP</h1>
             </div>
         </div>
-
-
-        <div id="modalContact" class="modalContact">
-            <div class="modalContent">
-                <h1>CONTACTO</h1>
-                <p>Tu mensaje fue enviado correctamente a <span>Yoscar Manuel</span> dentro de las próximas horas tendras una respuesta de el.</p>
-                <button id="closeModal">Cerrar</button>
+        <div class="frameworks">
+            <div class="box-skills">
+                <img src="assets/img/skills/react.webp">
+                <h1>React</h1>
+            </div>
+            <div class="box-skills">
+                <img src="assets/img/skills/tailwindcss.webp">
+                <h1>Tailwind</h1>
             </div>
         </div>
+    </div>
 
-
-        <div id="contact" class="flex-container-contact">
-            <h1>CONTACTAME</h1>
-            <p>Contactame para poder formar parte de tu proyecto.</p>
-            <form action="">
-                <label>Nombre</label>
-                <input type="text" name="name" placeholder="Tu nombre">
-                <label>E-Mail</label>
-                <input type="text" name="Email" placeholder="Tu Email">
-                <label>Mensaje</label>
-                <textarea name="Message" placeholder="Mensaje" style="height: 200px;"></textarea>
-                <button id="openModal">Enviar</button>
-            </form>
-        </div>
-        
-        <div class="line"></div>
+    <div class="line"></div>
 
     <footer>
         <div class="logo">
-            <img src="assets/img/logo.png">
+            <a href="#index"><img src="assets/img/logo.webp"></a>
+        </div>
+        <div class="copy">
             <p>Copyright © 2024 YoscarMJP Todos los derechos reservados.</p>
         </div>
         <div class="socials">
             <a href="https://www.instagram.com/yoscarmjp/"><i class='bx bxl-instagram'></i></a>
             <a href="https://github.com/yoscarmjp/"><i class='bx bxl-github' ></i></a>
-            <a href=""><i class='bx bxl-discord' ></i></a>
         </div>
     </footer>
 
-    <script src="assets/scripts/app.js"></script>
-    <script src="assets/scripts/modal.js"></script>
 </body>
 </html>
